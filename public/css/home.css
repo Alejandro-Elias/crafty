@@ -1,0 +1,133 @@
+.home__main__section__products {
+    width: 100%;   
+    padding: 20px;
+}
+
+.home__main__section__article--product {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.home__main__section__article--product img {
+    width: 100%;
+}
+
+.home__main__section__article--product h4 {
+    margin: 20px 0;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.home__main__section__article--product p {
+    line-height: 1.3rem;
+}
+
+/* aside tutoriales */
+
+.home__main__aside {
+    width: 100%;    
+    padding: 20px;
+}
+
+.home__main__aside h2 {
+    background-color: white;    
+    padding: 10px;
+    font-weight: 800;
+    text-transform: capitalize;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+}
+
+.home__main__aside__section--tutoriales {    
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.home__main__aside__section__article {
+    background-color: white;
+    border-bottom: 1px solid silver;
+    border: 1px solid silver;
+    border-bottom: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home__main__aside__section__article:last-child {
+    border-bottom: 1px solid silver;
+}
+
+.home__main__aside__section--publicidad {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home__main__aside__section--publicidad img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .home__main__section__products {
+        display: flex;
+        flex-wrap: wrap;
+    }    
+
+    .home__main__section__article--product {
+        width: 50%;
+    }
+
+    .home__main__aside__section--tutoriales {    
+        display: flex;
+        flex-wrap: wrap;     
+        justify-content: space-between;
+        row-gap: 14px;
+    }
+
+    .home__main__aside__section--tutoriales p {
+        width: 50%;
+    }
+
+    .home__main__aside__section__article {
+        border-bottom: 1px solid silver;
+        width: 49%;
+    }
+    
+    .home__main__aside__section--publicidad {
+        flex-direction: row;
+    }
+}
+
+/* desktop */
+
+@media (min-height: 1140px) {
+
+    .main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home__main__section__products {
+        width: 70%;
+    }
+
+    .home__main__aside {
+        width: 30%;
+    }
+
+    .home__main__aside__section--tutoriales {
+        flex-direction: column;
+
+    }
+
+    .home__main__aside__section__article {
+        width: 100%;
+    }
+}

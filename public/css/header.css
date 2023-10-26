@@ -1,0 +1,63 @@
+header {
+    background-color: #ff4500;
+    padding: 20px;
+}
+
+.header__logo {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section a {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+header nav ul li {
+    padding: 2px 0;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul {
+    margin-top: 10px;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+
+    header {
+        display: flex;  
+        gap: 20px;      
+    }
+
+    header section a {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: white;
+        height: 40px;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 10px;        
+        text-transform: uppercase;
+        
+    }
+}
+
