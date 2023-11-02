@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d77b7a8887.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>register</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="header__logo">
+            <a class="logo" href="/"><img src="/img/logo.png" alt="Logo"></a>
+            <a class="bar" href=""><i class="fa-solid fa-bars"></i></a>
+        </section>
+        <nav>
+            <ul>
+                <li>smartphone</li>
+                <li>tablet</li>
+                <li>compútadora</li>
+            </ul>
+            <ul>
+                <li><a href="/login">login</a></li>
+                <li><a href="/register">registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="register__main">
+        <section class="register__main__section">
+            <form action="" class="form">
+                <div class="form-input-box">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input id="nombre" class="form-input" type="text" placeholder="Escribí tu nombre" name="nombre">
+                </div>
+                
+                <div class="form-input-box">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input id="apellido" class="form-input" type="text"  name="apellio" placeholder="Apellido">
+                </div>
+
+                <div class="form-input-box">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" class="form-input" type="email"  name="email" placeholder="tuemail@mail.com">
+                </div>
+
+                <div class="form-input-box">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input id="password" class="form-input" type="password" name="password" placeholder="Password">
+                </div>
+
+                <div class="form-input-box">
+                    <label for="password2" class="form-label">Contraseña</label>
+                    <input id="password2" class="form-input" type="password" name="password" placeholder="confirma tu Password">
+                </div>
+
+                <div class="box__end">
+                    <button class="button button--secondary" type="reset">Limpiar</button>
+                    <button class="button button--primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

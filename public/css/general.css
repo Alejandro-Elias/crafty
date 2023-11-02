@@ -1,3 +1,7 @@
+:root {
+    --rojo: #ff4500;
+}
+
 * {
     padding: 0;
     box-sizing: border-box    

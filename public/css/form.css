@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-input-box {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 10px;
+}
+
+.form-label {
+    margin-bottom: 20px;
+
+}

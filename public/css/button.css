@@ -1,0 +1,23 @@
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.button--primary {
+    background-color: var(--rojo);   
+    color: white;
+}
+
+.button--secondary {
+    background-color: #9b9696;
+    color: white;
+}
+
+.box__end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;    
+    width: 100%;
+}
